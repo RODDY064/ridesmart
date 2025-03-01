@@ -11,7 +11,12 @@ export default {
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
+        dark_green:"#0D2736",
+        lime_green:"#3BDD10",
       },
+      fontFamily: {
+        "lato": ["var(--font-lato)", "Lato", "sans-serif", "system-ui"],
+      }
     },
   },
   plugins: [],
